@@ -1,0 +1,48 @@
+body {
+  /* background-color: #76a9e0; */
+  background-image: url("");
+  background-color: rgb(173, 159, 224);
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center {
+  margin: auto;
+  margin-top: 200px;
+}
+
+#header {
+  font-family: "Righteous", sans-serif;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: "Righteous", sans-serif;
+}
+
+.book-list {
+  margin-top: 50px;
+  visibility: hidden;
+}
+
+.back {
+  position: relative;
+  color: #000;
+  top: -250px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  font-family: consolas;
+  text-decoration: none;
+  transition-property: background, color;
+  transition-duration: 0.5s;
+  text-decoration: none;
+}
+
+.back:hover{
+  text-decoration: none;
+}

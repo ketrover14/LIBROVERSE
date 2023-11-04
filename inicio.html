@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LibreriaVirtual</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body data-bs-theme="light">
+    <header>
+        <div class="container">
+            <p class="logo">LIBROVERSE</p>
+            <button id="modo-oscuro-btn" onclick="toggleModoOscuro()">Modo Oscuro</button>
+            <nav>
+                <a class="letra" href="#somos-proya">Quienes Somos</a>
+                <a class="letra" href="#nuestros-programas">Nuestros Libros</a>
+                <a class="letra" href="#caracteristicas">Características</a>
+                <a class="letra" href="index.html">Libreria Universal</a>
+                <a class="letra" href="login.html">Ingresar</a>
+                <a class="letra" href="registro.html">Registrarse</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <h1>Encuentra siempre <br>Los mejores libros en linea</h1>
+        <button><a href="index.html">Comienza Ya</a></button>
+    </section>
+
+    <section id="somos-proya">
+        <div class="container">
+            <div class="img-container"></div>
+            <div class="texto">
+
+                <h2>Somos <span class="color-acento">LIBROVERSE</span></h2>
+                <p>Libroverse es un grupo (Keyver Mejia, Juan lLopz, Eliecer lopez, Sebastian Gamez) apasionado por la
+                    lectura y la educación que ha creado Libroverse, una página de librería virtual dedicada a servir a
+                    instituciones educativas. Su misión es proporcionar un catálogo diverso de libros y recursos
+                    educativos de calidad, desde literatura clásica hasta obras contemporáneas, con un enfoque en la
+                    accesibilidad y la personalización. Este equipo de bibliotecarios, educadores y amantes de la
+                    literatura se esfuerza por ser el punto de referencia en línea para las necesidades educativas,
+                    ofreciendo una plataforma que permite a las instituciones gestionar su colección de libros y
+                    enriquecer la experiencia de aprendizaje.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nuestros-programas">
+        <div class="container">
+            <h2>Nuestros Libros</h2>
+            <div class="programas">
+                <div class="carta">
+                    <h3>Documentos Interactivos</h3>
+                    <p>En Libroverse, ofrecemos una amplia gama de documentos en formato, que incluyen desde libros
+                        académicos hasta literatura y recursos educativos, para enriquecer la experiencia de aprendizaje
+                        de instituciones educativas, brindando fácil acceso y descarga dentro de nuestra plataforma
+                        especializada en librería virtual.
+
+
+
+
+                    </p>
+                    <button><a href="index.html">Ingresar</a></button>
+                </div>
+                <div class="carta">
+                    <h3>Formatos Unicos</h3>
+                    <p>En Libroverse, ofrecemos una amplia gama de documentos en formatos únicos, como interactivos,
+                        libros electrónicos enriquecidos con multimedia y recursos educativos innovadores, para
+                        enriquecer la experiencia de aprendizaje de instituciones educativas, brindando fácil acceso y
+                        descarga dentro de nuestra plataforma especializada en librería virtual.
+
+
+
+
+                    </p>
+                    <button><a href="index.html">Ingresar</a></button>
+                </div>
+                <div class="carta">
+                    <h3>Obten la mejor experiencia virtual en nuestra libreria</h3>
+
+                    <p>En Libroverse, proporcionamos una experiencia virtual de primera calidad al ofrecer una variada
+                        selección de documentos en formatos únicos, interactivos y libros electrónicos
+                        enriquecidos, diseñados para enriquecer el aprendizaje en instituciones educativas. Nuestra
+                        plataforma facilita el acceso y la descarga de estos recursos para una experiencia educativa en
+                        línea excepcional.
+
+
+
+
+                    </p>
+                    <button><a href="index.html">Ingresar</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+        <div class="container">
+            <ul>
+                <li>✔️ 100% online</li>
+                <li>✔️ Facil de usar</li>
+                <li>✔️ Soporte 1:1</li>
+                <li>✔️ consultas</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="final">
+        <h2>¿Listo para buscar libros para leer?</h2>
+        <button><a href="index.html">No esperes mas</a></button>
+    </section>
+
+    <footer>
+            <div class="container">
+                <p>&copy; LIBROVERSE 2023</p>
+            </div>
+        </footer>
+    
+        <script>
+            function toggleModoOscuro() {
+                const body = document.body;
+                const modoOscuroBtn = document.getElementById('modo-oscuro-btn');
+        
+                if (body.getAttribute('data-bs-theme') === 'light') {
+                    body.setAttribute('data-bs-theme', 'dark');
+                    body.classList.add('modo-oscuro');
+                    modoOscuroBtn.textContent = 'Modo Claro';
+                } else {
+                    body.setAttribute('data-bs-theme', 'light');
+                    body.classList.remove('modo-oscuro');
+                    modoOscuroBtn.textContent = 'Modo Oscuro';
+                }
+            }
+    </script>
+</body>
+    </html>
+    
+    
+    
+    
+    
